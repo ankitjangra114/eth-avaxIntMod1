@@ -7,7 +7,7 @@ contract ErrorHandle {
         assert(a!=0);
     }
 
-    function divide(uint num1, uint num2) public pure returns (uint){
+    function div(uint num1, uint num2) public pure returns (uint){
         if(num2==0){
            
             revert("num2 should not be zero");
