@@ -12,3 +12,16 @@ The `ErrorHandling` contract provides the following functions:
 - If the condition fails, it triggers an "Internal error" and aborts the execution.
 
 `divide(uint num1, uint num2):`
+- This function demonstrates the usage of the revert function.
+- It takes num1r and num2 parameters and performs division.
+- If the num2 is equal to zero, it reverts the transaction with a custom error message.
+-If the condition is met, it returns the result of the division.
+
+`divide(uint y)`
+- This function demonstrates the usage of the require function.
+- It takes an a parameter and performs divide with a predefined constant x.
+- It first checks if y does not equal to zero using the require statement.
+- If the condition fails, it reverts the transaction with a custom error message.
+- If the condition is met, it returns the result of the multiplication.
+# License
+This contract is using the MIT License.
